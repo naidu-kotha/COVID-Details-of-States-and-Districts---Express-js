@@ -11,7 +11,7 @@ const dbPath = path.join(__dirname, "covid19India.db");
 let db = null;
 
 
-// Intialization
+// Initialization
 const initializeDbAndServer = async() => {
     try {
         db = await open({
