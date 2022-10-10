@@ -23,6 +23,7 @@ const initializeDbAndServer = async() => {
         });
     } catch(e) {
         console.log(`DBError: ${e.message}`);
+        process.exit(1);
     };
 };
 
